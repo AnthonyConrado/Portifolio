@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-anthony-conrado",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Portfólio de Anthony Gonçalves Conrado, desenvolvedor full stack júnior. React + TypeScript + Vite, acessível segundo a ABNT NBR 17225.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0"
+  }
+}
