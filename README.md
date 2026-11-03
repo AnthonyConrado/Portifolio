@@ -1,6 +1,10 @@
 <h1 align="center">Portfólio · Anthony Conrado</h1>
 
 <p align="center">
+  <a href="https://anthony-conrado.vercel.app"><strong>anthony-conrado.vercel.app</strong></a>
+</p>
+
+<p align="center">
   Portfólio pessoal feito com <strong>React</strong>, <strong>TypeScript</strong> e <strong>Vite</strong>, acessível segundo a <strong>ABNT NBR 17225</strong>.
 </p>
 
@@ -48,7 +52,7 @@ npm run typecheck  # checagem de tipos do TypeScript
 ## Currículo e prévia de compartilhamento
 
 - O currículo fica em `public/curriculo-anthony-conrado.pdf`. Para atualizar, substitua o arquivo mantendo o mesmo nome.
-- A imagem que aparece ao compartilhar o link (LinkedIn, WhatsApp) é `public/og-image.jpg`. Depois do deploy, troque `og-image.jpg` em `index.html` pelo endereço completo do site (ex.: `https://seu-portfolio.vercel.app/og-image.jpg`), porque essas redes exigem o link inteiro.
+- A imagem que aparece ao compartilhar o link (LinkedIn, WhatsApp) é `public/og-image.jpg`. Se o endereço do site mudar (domínio próprio, por exemplo), atualize `og:url`, `og:image` e `canonical` em `index.html`.
 
 ## Deploy na Vercel
 
