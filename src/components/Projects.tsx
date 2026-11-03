@@ -71,12 +71,14 @@ export function Projects() {
         {/* Projeto em destaque: Barbearia Power Man */}
         <article className="featured" hidden={!visible('web')}>
           <div className="featured-media">
+            <div className="mock">
             <div className="desk">
               <div className="bar"><i /><i /><i /></div>
-              <img src={pmHome} alt="Página inicial do site da Barbearia Power Man" />
+              <img src={pmHome} alt="Página inicial do site da Barbearia Power Man" width={800} height={600} loading="lazy" decoding="async" />
             </div>
             <div className="phone">
-              <img src={pmMobile} alt="Site da Power Man aberto no celular" />
+              <img src={pmMobile} alt="Site da Power Man aberto no celular" width={300} height={575} loading="lazy" decoding="async" />
+            </div>
             </div>
             <span className="live"><i />No ar</span>
           </div>

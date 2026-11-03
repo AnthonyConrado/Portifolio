@@ -45,6 +45,11 @@ npm run preview    # serve a pasta dist/ localmente
 npm run typecheck  # checagem de tipos do TypeScript
 ```
 
+## Currículo e prévia de compartilhamento
+
+- O currículo fica em `public/curriculo-anthony-conrado.pdf`. Para atualizar, substitua o arquivo mantendo o mesmo nome.
+- A imagem que aparece ao compartilhar o link (LinkedIn, WhatsApp) é `public/og-image.jpg`. Depois do deploy, troque `og-image.jpg` em `index.html` pelo endereço completo do site (ex.: `https://seu-portfolio.vercel.app/og-image.jpg`), porque essas redes exigem o link inteiro.
+
 ## Deploy na Vercel
 
 1. Suba este projeto para um repositório no GitHub.

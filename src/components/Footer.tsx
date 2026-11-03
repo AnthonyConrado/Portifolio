@@ -1,4 +1,5 @@
 import { CONTACT } from '../data/contact';
+import { CvButton } from './CvButton';
 import { ExternalLink, Icon } from './ui';
 
 export function Footer({ showToTop }: { showToTop: boolean }) {
@@ -26,6 +27,7 @@ export function Footer({ showToTop }: { showToTop: boolean }) {
               <ul>
                 <li><ExternalLink href={CONTACT.whatsapp}>WhatsApp</ExternalLink></li>
                 <li><a href="#contato">{CONTACT.email}</a></li>
+                <li><CvButton>Currículo (PDF)</CvButton></li>
                 <li><ExternalLink href={CONTACT.github}>GitHub</ExternalLink></li>
                 <li><ExternalLink href="https://core-up-rho.vercel.app">CoreUp (app)</ExternalLink></li>
               </ul>

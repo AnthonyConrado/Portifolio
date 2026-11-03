@@ -12,7 +12,7 @@ export function About() {
             <span className="deco" aria-hidden="true" />
             <span className="bubble" aria-hidden="true">"Hello, World!"</span>
             <div className="photo">
-              <img src={aboutPhoto} alt="Foto de Anthony Gonçalves Conrado" />
+              <img src={aboutPhoto} alt="Foto de Anthony Gonçalves Conrado" width={640} height={640} loading="lazy" decoding="async" />
             </div>
             <span className="loc">
               <Icon name="u-pin" />
@@ -21,7 +21,7 @@ export function About() {
           </div>
           <div className="about-text">
             <p>
-              Hey! Eu sou o <strong>Anthony Gonçalves Conrado</strong>, <strong>desenvolvedor full stack júnior</strong> de
+              Olá! Eu sou o <strong>Anthony Gonçalves Conrado</strong>, <strong>desenvolvedor full stack júnior</strong> de
               Guarulhos, em São Paulo. Trabalho no desenvolvimento de aplicações web modernas e de{' '}
               <strong>automações com N8N</strong>.
             </p>

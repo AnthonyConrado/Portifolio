@@ -19,7 +19,7 @@ export function Certificates({ onOpenA11y }: { onOpenA11y: () => void }) {
         />
         <div className="cert">
           <button className="cert-img" type="button" aria-label="Ampliar o certificado do Acessibilidade PRO 2026" onClick={() => setOpen(true)}>
-            <img src={certImg} alt={CERT_ALT} />
+            <img src={certImg} alt={CERT_ALT} width={1000} height={707} loading="lazy" decoding="async" />
           </button>
           <div className="cert-body">
             <span className="p-kicker">INAER · Instituto Nacional de Acessibilidade</span>

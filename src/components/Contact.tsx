@@ -1,13 +1,14 @@
 import { useMemo, useState } from 'react';
 import { CONTACT } from '../data/contact';
 import { useToast } from '../hooks/useToast';
+import { CvButton } from './CvButton';
 import { ExternalLink, Icon } from './ui';
 
 const TYPES = [
+  { value: 'falar sobre uma vaga', label: 'Vaga' },
   { value: 'um site', label: 'Site' },
   { value: 'um sistema', label: 'Sistema' },
   { value: 'uma automação', label: 'Automação' },
-  { value: 'falar sobre uma vaga', label: 'Vaga' },
   { value: 'outra coisa', label: 'Outro' },
 ];
 
@@ -39,7 +40,7 @@ export function Contact() {
         <div>
           <p className="avail light"><i aria-hidden="true" />Disponível para vagas e parcerias</p>
           <h2 id="contato-titulo">
-            Bora tirar sua ideia <span>do papel?</span>
+            Vamos trabalhar <span>juntos?</span>
           </h2>
           <p className="lead">Está contratando ou quer construir algo junto? Me conte o que você precisa e eu respondo o mais rápido possível.</p>
           <div className="c-list">
@@ -58,6 +59,11 @@ export function Contact() {
               <span className="tx"><small>GitHub</small><b>{CONTACT.githubLabel}</b></span>
               <Icon name="u-ext" />
             </ExternalLink>
+            <CvButton className="c-item" label="Baixar currículo em PDF">
+              <span className="ic"><Icon name="u-file" /></span>
+              <span className="tx"><small>Currículo</small><b>Baixar em PDF</b></span>
+              <Icon name="u-download" />
+            </CvButton>
             <div className="c-item">
               <span className="ic"><Icon name="u-pin" /></span>
               <span className="tx"><small>Localização</small><b>{CONTACT.location}</b></span>

@@ -33,7 +33,7 @@ export function Services() {
   return (
     <section className="block" id="servicos" aria-labelledby="servicos-titulo">
       <div className="wrap">
-        <SectionTitle id="servicos-titulo" eyebrow="O que eu faço" title="Serviços" subtitle="Como posso ajudar o seu negócio." />
+        <SectionTitle id="servicos-titulo" eyebrow="O que eu faço" title="Serviços" subtitle="Onde posso contribuir no seu time ou projeto." />
         <div className="services">
           {SERVICES.map((s, i) => (
             <article className="service" key={s.title}>
@@ -74,7 +74,7 @@ export function Process() {
           <div className="process-photo">
             <span className="deco" aria-hidden="true" />
             <div className="photo">
-              <img src={processPhoto} alt="Anthony Conrado de costas, com uma pasta na mão, em um ambiente corporativo" />
+              <img src={processPhoto} width={560} height={700} loading="lazy" decoding="async" alt="Anthony Conrado de costas, com uma pasta na mão, em um ambiente corporativo" />
             </div>
             <span className="tagline"><Icon name="u-chat" />Do primeiro papo ao deploy</span>
           </div>
